@@ -5,6 +5,7 @@
 }
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
+
 /*---  header section  ---- */
 .banner {
   max-width: 1300px;
@@ -30,26 +31,57 @@ font-family: 'Merriweather', serif; */
     font-family: 'Merriweather', serif;
     color: white;
 } */
-.banner-content h4{
-    font-size: 20px;
-    font-weight: 100px;
-    margin-bottom: 20px;
-    font-family: 'Merriweather', serif;
-    color: white;
-    text-align: center;
+.banner-content h4 {
+  font-size: 20px;
+  font-weight: 100px;
+  margin-bottom: 20px;
+  font-family: "Merriweather", serif;
+  color: white;
+  text-align: center;
 }
-.banner-content h1{
-    font-size: 49px;
-    font-weight: 800px;
-    padding-bottom: 12px;
-    font-family: 'Merriweather', serif;
-    color: white;
+.banner-content h1 {
+  font-size: 49px;
+  font-weight: 800px;
+  padding-bottom: 12px;
+  font-family: "Merriweather", serif;
+  color: white;
+}
+.banner-content-heading {
+  max-height: 150px;
+  max-width: 490px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 110px;
+}
+/* ---offer section--- */
+.offer-continer {
+  margin-top: 60px;
+  text-align: center;
+}
+.offer-continer > h1 {
+  color: #ff0000;
+  font-size: 55px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+.offer-content {
+  margin-top: 25px;
+}
+.offer-content > h4 {
+  color: #ff0000;
+  font-family: "Inter", sans-serif;
+  font-weight: 700px;
+  margin-bottom: 16px;
+}
+.offer-content > h3 {
+  color: #070211;
+  font-size: 33px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.offer-img img{
+    max-width: 540px;
+    height: 100%;
 
-}
-.banner-content-heading{
-    max-height: 150px;
-    max-width: 490px;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 110px;
 }
