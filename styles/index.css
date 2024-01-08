@@ -165,6 +165,65 @@ font-family: 'Merriweather', serif; */
   padding: 12px 26px;
   margin-top: 30px;
 }
+/* ---comming soon--- */
+.conning-soon-container {
+  max-width: 1340px;
+  min-height: 350px;
+  margin: 100px 110px 30px;
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top, rgba(253, 230, 242, 0.411),rgba(255, 255, 255, 0));
+}
+.comming-soon-text h4 {
+  color: #ff0000;
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 300px;
+  padding-bottom: 15px;
+}
+.comming-soon-text h2 {
+  color: #070211;
+  font-size: 32px;
+  font-family: "Merriweather";
+  font-weight: 800px;
+  padding-bottom: 15px;
+}
+.comming-soon-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 300;
+  line-height: 20px;
+}
+.comming-soon-img img {
+  width: 260px;
+  height: 100%;
+  border: 10px solid #ff0000;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 50px 0 0;
+}
+.comming-soon-right h2 {
+  color: #ff0000;
+  font-size: 32px;
+  font-family: "Inter";
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.comming-soon-right p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 300;
+  line-height: 18px;
+}
+.commig-soon-right img{
+  width: 50px;
+  height: 100%;
+}
 /* ---portfolio section */
 .portfolio-container {
   max-width: 1340px;
@@ -189,32 +248,33 @@ font-family: 'Merriweather', serif; */
 .portfolio-container .portfolio-text p {
   color: rgba(7, 2, 17, 0.6);
   font-size: 16px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 400;
   line-height: 20px;
   padding-bottom: 25px;
 }
-.portfolio-uper-img{
+.portfolio-uper-img {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
 }
-.portfolio-uper-img img{
+.portfolio-uper-img img {
   width: 250px;
   height: 100%;
   transition: 1.5s;
 }
-.portfolio-lower-img{
+.portfolio-lower-img {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
 }
-.portfolio-lower-img img{
+.portfolio-lower-img img {
   width: 250px;
   height: 100%;
   transition: 1.5s;
 }
-.portfolio-uper-img img:hover, .portfolio-lower-img img:hover{
+.portfolio-uper-img img:hover,
+.portfolio-lower-img img:hover {
   transform: scale(1.13);
 }
 
