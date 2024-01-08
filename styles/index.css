@@ -124,12 +124,12 @@ font-family: 'Merriweather', serif; */
 .welcome-banner-content-discription p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 14px;
-  font-family: 'Inter',sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 200;
   line-height: 20px;
   margin-bottom: 30px;
 }
-.welcome-banner-content >button{
+.welcome-banner-content > button {
   background-color: #e9e9e900;
   border: none;
   color: white;
@@ -137,6 +137,41 @@ font-family: 'Merriweather', serif; */
   font-size: 18px;
   border-radius: 5px;
 }
-.welcome-banner-content >button:hover{
+.welcome-banner-content > button:hover {
   border: 1px solid wheat;
+}
+/* ---address section--- */
+.address {
+  text-align: center;
+  max-width: 1340px;
+  min-height: 350px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(240, 152, 193, 0.952),
+    rgba(206, 198, 204, 0)
+  );
+  margin: 100px 110px 30px;
+  border-radius: 10px;
+}
+.address-detail {
+  font-size: 24px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 40px;
+  padding-top: 85px;
+}
+.address-detail span {
+  color: #ff0000;
+}
+.address button {
+  color: white;
+  background-color: #ff0000;
+  font-size: 17px;
+  font-family: 'Inter';
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 26px;
+  margin-top: 30px;
+
 }
