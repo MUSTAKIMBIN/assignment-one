@@ -15,7 +15,7 @@ font-family: 'Merriweather', serif; */
       rgba(0, 0, 0, 0.904),
       rgba(206, 198, 204, 0)
     ),
-    url("/resources/Banner\ Image.png");
+    url("../resources/Banner\ Image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -94,7 +94,7 @@ font-family: 'Merriweather', serif; */
       rgba(0, 0, 0, 0.952),
       rgba(206, 198, 204, 0)
     ),
-    url("/resources/Vectorrr.png");
+    url("../resources/Vectorrr.png");
   background-size: cover;
   background-position: center;
   margin: 50px 110px 30px;
