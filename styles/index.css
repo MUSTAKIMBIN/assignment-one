@@ -22,15 +22,6 @@ font-family: 'Merriweather', serif; */
   margin: 41px 110px 0;
   border-radius: 10px;
 }
-/* .banner .banner-content{
-    width: 450px;
-    height: 100%;
-    margin: 0 auto;
-    padding-top: 135px;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    color: white;
-} */
 .banner-content h4 {
   font-size: 20px;
   font-weight: 100px;
@@ -174,6 +165,59 @@ font-family: 'Merriweather', serif; */
   padding: 12px 26px;
   margin-top: 30px;
 }
+/* ---portfolio section */
+.portfolio-container {
+  max-width: 1340px;
+  min-height: 700px;
+  margin: 100px 110px 30px;
+}
+.portfolio-container .portfolio-text h4 {
+  color: #ff0000;
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.portfolio-container .portfolio-text h2 {
+  color: #070211;
+  font-size: 34px;
+  font-family: "Merriweather";
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+.portfolio-container .portfolio-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 25px;
+}
+.portfolio-uper-img{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.portfolio-uper-img img{
+  width: 250px;
+  height: 100%;
+  transition: 1.5s;
+}
+.portfolio-lower-img{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.portfolio-lower-img img{
+  width: 250px;
+  height: 100%;
+  transition: 1.5s;
+}
+.portfolio-uper-img img:hover, .portfolio-lower-img img:hover{
+  transform: scale(1.13);
+}
+
 /* ---Subscribe Newsletter */
 .Newsletter {
   max-width: 1340px;
@@ -201,23 +245,23 @@ font-family: 'Merriweather', serif; */
 .newsletter-content p {
   color: rgba(7, 2, 17, 0.6);
   font-size: 16px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 300;
   line-height: 16px;
 }
-.newsletter-input{
+.newsletter-input {
   text-align: center;
 }
-.newsletter-input input{
+.newsletter-input input {
   background-color: white;
   padding: 20px 80px 20px 25px;
   border: none;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   margin-right: 0;
-  color: rgba(7, 2, 17, 0.30);
+  color: rgba(7, 2, 17, 0.3);
 }
-.newsletter-input >button{
+.newsletter-input > button {
   padding: 20px 25px;
   background-color: #ff0000;
   color: white;
